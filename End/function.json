@@ -9,7 +9,7 @@
         "get",
         "post"
       ],
-      "route": "/end"
+      "route": "end"
     },
     {
       "type": "http",

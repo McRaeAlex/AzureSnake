@@ -9,7 +9,7 @@
         "get",
         "post"
       ],
-      "route": "/move"
+      "route": "move"
     },
     {
       "type": "http",
