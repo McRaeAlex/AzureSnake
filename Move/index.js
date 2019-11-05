@@ -1,11 +1,25 @@
 module.exports = async function (context, req) {
-    let gamestate = JSON.parse(req.body);
+    if (!req.body) { context.res = { status: 400, body: 'Bad request' }; return; }
 
-    // DO STUFF BASED ON GAME STATE
+    let gamestate = req.body;
+
+    context.log(gamestate);
+
+    let movement = logic(gamestate);
+
+    context.log(movement);
+
     context.res = {
         status: 200,
+        headers: {
+            'Content-Type': 'application/json'
+        },
         body: {
-            move: 'up'
+            move: movement
         }
     }
 };
+
+function logic(gamestate) {
+    return 'up';
+}

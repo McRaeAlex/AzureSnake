@@ -7,4 +7,4 @@ Often times the most difficult part of battlesnake is just deploying the applica
 Please checkout [this]() video I made that goes through how to get started! Or keep reading below!
 
 1. Clone the repo onto your local machine!
-2. 
+2. Create a function app in the azure portal
