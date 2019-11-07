@@ -8,7 +8,7 @@ If you have any questions or comments please create a issue on the github repo! 
 
 ## Tutorial
 
-Please checkout [this]() video I made that goes through how to get started! Or keep reading below!
+Please checkout [this](https://youtu.be/f-YBnq-qIas) video I made that goes through how to get started! Or keep reading below!
 
 ### Dependencies
 
@@ -17,6 +17,7 @@ For this project your will need
 - Nodejs (10.x prefered)
 - Npm
 - An Azure account
+- Azure CLI installed and logged in
 
 ### First steps
 
